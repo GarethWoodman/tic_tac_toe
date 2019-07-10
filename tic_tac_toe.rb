@@ -94,16 +94,3 @@ class Game
   	@board.set_tile(@position, player)
   end
 end
-
-=begin
-board = Board.new
-playerOne = Player.new("Gareth", "x")
-playerTwo = Player.new("Harry", "o")
-
-board.set_tile(3, playerOne)
-board.set_tile(1, playerOne)
-board.set_tile(2, playerTwo)
-board.set_tile(6, playerOne)
-board.set_tile(9, playerOne)
-board.show_tiles
-=end
